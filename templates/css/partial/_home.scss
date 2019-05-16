@@ -1,0 +1,126 @@
+body#home{
+  display: block;
+  main{
+    section#visuel-home{
+      height: 80vh;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      position: relative;
+      #parcourir{
+        margin-top: 200px;
+      }
+      #emprunt, #parcourir{
+        display: flex;
+        a{
+          padding: 25px;
+          background: $secondary;
+          color: white;
+          text-transform: uppercase;
+          text-decoration: none;
+          font-size: 1.2rem;
+          font-weight: 600;
+
+          z-index: 1;
+          position: relative;
+          overflow: hidden;
+          &:before{
+            content: '';
+            z-index: -1;
+            position: absolute;
+            bottom: 100%;
+            right: 100%;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            background-color: darken($secondary, 10%);
+            transform-origin: center;
+            transform: translate(50%, 50%) scale(0);
+            transition: transform 0.2s ease-in-out;
+          }
+          &:hover{
+            &:before{
+              transform: translate(50%, 50%) scale(15);
+            }
+          }
+        }
+      }
+      .big-scrolldown{
+        position: absolute;
+        bottom: -10px;
+        i{
+          font-size: 3rem;
+          color: $primary;
+        }
+      }
+    }
+    section#tendance-livre{
+      background: #fff;
+      margin: 30px;
+      padding: 15px;
+      display: grid;
+      grid-template: auto auto / 1fr 1fr 1fr;
+      grid-template-areas:
+              "titre titre titre"
+              "article1 article2 article3";
+      h2{
+        grid-area: titre;
+        padding-left: 15px;
+        font-size: 1.8rem;
+        text-transform: uppercase;
+        position: relative;
+        &:after{
+          position: absolute;
+          content: '';
+          bottom: -4px;
+          left: 15px;
+          right: 30%;
+          height: 3px;
+          background: linear-gradient(135deg, $primary 20%,#fff 100%);
+        }
+        i{
+          color: $primary;
+        }
+      }
+      article{
+        background: $tertiary;
+        padding: 0 15px;
+        margin: 0 15px;
+        &:first-child{
+          grid-area: article1;
+        }
+        a:nth-child(2){
+          grid-area: article2;
+        }
+        &:last-child{
+          grid-area: article3;
+        }
+        header{
+          position: relative;
+          h4{
+            text-transform: uppercase;
+            font-size: 1.3rem;
+            margin: 0;
+            padding: 16px 0;
+          }
+          .disponibilite{
+            position: absolute;
+            top: 0;
+            right: -15px;
+            background: green;
+            color: #fff;
+            padding: 4px 6px;
+            border-bottom-left-radius: 4px;
+            &.-non{
+              background: red;
+            }
+          }
+        }
+        footer{
+          display: flex;
+          justify-content: space-between;
+        }
+      }
+    }
+  }
+}
