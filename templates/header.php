@@ -23,7 +23,8 @@
     </nav>
 
     <div class="connexion">
-        <a href="#">Se connecter</a>
+        <a href="<?php echo ('http://'.$_SERVER['HTTP_HOST']."/login.php"); ?>">Se connecter</a>
     </div>
+    <a href="../logout.php">DECO</a>
 
 </header>
