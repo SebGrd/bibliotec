@@ -22,7 +22,7 @@ if(isset($_SESSION['logged_in'])){
             try{
                 $pdo = new PDO('mysql:host=localhost;dbname=covoit', 'root', '');
             } catch (PDOException $e){
-                exit('Database error');
+                exit('Erreur de connexion à la base de donnée');
             }
             $query = $pdo->prepare("SELECT password FROM users WHERE mail = ?"); //Requete SQL
             $query->bindValue(1, $mail); //Ajoute le mail à la requete
