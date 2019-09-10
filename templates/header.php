@@ -30,7 +30,7 @@
 
         if(isset($_SESSION['logged_in'])){
             ?>
-            <a href="<?php echo ('http://'.$_SERVER['HTTP_HOST']."/login.php"); ?>">Tableau de bord</a>
+            <a href="<?php echo ('http://'.$_SERVER['HTTP_HOST']."/dashboard/"); ?>">Tableau de bord</a>
             <div class="drop">
                 <ul>
                     <li><a href="#">Mon profil</a></li>
