@@ -17,14 +17,35 @@
     <nav>
         <ul>
             <li><a href="#">Emprunter un livre</a></li>
-            <li><a href="#">Tous nos livres</a></li>
+            <li><a href="<?php echo ('http://'.$_SERVER['HTTP_HOST']."/book-list.php"); ?>">Tous nos livres</a></li>
             <li><a href="#">Nos bibliothèques</a></li>
         </ul>
     </nav>
 
     <div class="connexion">
-        <a href="<?php echo ('http://'.$_SERVER['HTTP_HOST']."/login.php"); ?>">Se connecter</a>
+        <?php
+        if (!isset($_SESSION)) {
+            session_start();
+        }
+
+        if(isset($_SESSION['logged_in'])){
+            ?>
+            <a href="<?php echo ('http://'.$_SERVER['HTTP_HOST']."/login.php"); ?>">Tableau de bord</a>
+            <div class="drop">
+                <ul>
+                    <li><a href="#">Mon profil</a></li>
+                    <li><a href="../logout.php" class="logout">Déconnexion</a></li>
+                </ul>
+            </div>
+            <?php
+        } else{
+            ?>
+            <a href="<?php echo ('http://'.$_SERVER['HTTP_HOST']."/login.php"); ?>">Se connecter</a>
+            <?php
+        }
+
+        ?>
+
     </div>
-    <a href="../logout.php">DECO</a>
 
 </header>

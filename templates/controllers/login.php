@@ -1,6 +1,8 @@
 <?php
 
-session_start();
+if (!isset($_SESSION)) {
+    session_start();
+}
 
 if(isset($_SESSION['logged_in'])){
 
@@ -20,7 +22,7 @@ if(isset($_SESSION['logged_in'])){
         } else{
 
             try{
-                $pdo = new PDO('mysql:host=localhost;dbname=covoit', 'root', '');
+                $pdo = new PDO('mysql:host=localhost;dbname=biblioteque', 'root', '');
             } catch (PDOException $e){
                 exit('Erreur de connexion à la base de donnée');
             }
