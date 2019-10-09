@@ -3,7 +3,11 @@
     <div class="container">
 
         <?php foreach ($bibliotheques as $bibliotheque): ?>
-        <h3><?php echo $bibliotheque['nom_biblio']; ?></h3>
+        <div>
+            <h3><?php echo $bibliotheque['nom_biblio']; ?></h3>
+            <div class="id"><?php echo $bibliotheque['id_biblio']; ?></div>
+        </div>
+
             <pre>
                 <?php print_r($bibliotheque); ?>
          </pre>

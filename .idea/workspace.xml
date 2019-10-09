@@ -2,32 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88b3ee2f-83dd-430c-9217-33a349f5ddcf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bibliotheque-list.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/controllers/blibliotheque-list.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/controllers/dashboard/userAddHandler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/controllers/dashboard/userDelHandler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/css/partial/_dashboard.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/views/bibliotheque-list.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/covoit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/covoit.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/controllers/book-list.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/controllers/book-list.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/controllers/dashboard/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/controllers/dashboard/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/controllers/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/controllers/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/css/partial/_global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/templates/css/partial/_global.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/css/partial/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/templates/css/partial/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/css/partial/_var.scss" beforeDir="false" afterPath="$PROJECT_DIR$/templates/css/partial/_var.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/templates/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/templates/css/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/function.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/function.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/views/book-list.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/views/book-list.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/views/dashboard/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/views/dashboard/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/views/bibliotheque-list.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/views/bibliotheque-list.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/views/bibliotheque-list.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="59" lean-forward="true" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+            <state relative-caret-position="119">
+              <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -343,12 +319,12 @@
       <workItem from="1570101339801" duration="598000" />
       <workItem from="1570533622914" duration="5865000" />
       <workItem from="1570603973271" duration="2106000" />
-      <workItem from="1570620297284" duration="2321000" />
+      <workItem from="1570620297284" duration="3266000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130742000" />
+    <option name="totallyTimeSpent" value="131687000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -361,7 +337,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18389262" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -606,8 +581,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/views/bibliotheque-list.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="59" lean-forward="true" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+        <state relative-caret-position="119">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
         </state>
       </provider>
     </entry>
