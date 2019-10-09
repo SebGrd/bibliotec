@@ -6,7 +6,7 @@
 
     <main>
 
-        <section id="visuel-home" class="parallax-window" data-parallax="scroll" data-image-src="<?php echo ('http://'.$_SERVER['HTTP_HOST']."/templates/img/bg-2-w.jpg"); ?>">
+        <section id="visuel-home" class="parallax-window" data-parallax="scroll" data-image-src="<?php echo ('http://'.$_SERVER['HTTP_HOST']."/templates/img/bg-2.jpg"); ?>">
             <div class="big-button" id="parcourir">
                 <a href="#">Parcourir les livres</a>
             </div>
@@ -78,18 +78,22 @@
 
         <?php
 
-        $N=12;
-        $u=$N;
-        $i=0;
-        while ($i<5){
-            echo $u;
-            if($u%2==0){
-                $u=$u/2;
-            } else{
-                $u=$u*3+1;
-            }
-            $i++;
-        }
+//        $N=12;
+//        $u=$N;
+//        $i=0;
+//        while ($i<5){
+//            echo $u;
+//            if($u%2==0){
+//                $u=$u/2;
+//            } else{
+//                $u=$u*3+1;
+//            }
+//            $i++;
+//        }
+
+
+        $hashed_password = password_hash('mypassword', PASSWORD_BCRYPT);
+        echo $hashed_password;
 
         ?>
     </main>

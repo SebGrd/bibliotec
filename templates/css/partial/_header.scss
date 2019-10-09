@@ -1,23 +1,18 @@
 header#header{
-  display: grid;
-  grid-template: auto / 20% 1fr 20%;
-  grid-template-areas: "marque nav connexion";
-  padding-top: 12px;
-  -webkit-box-shadow: 0 0 5px black;
-  -moz-box-shadow: 0 0 5px black;
-  box-shadow: 0 0 5px black;
-  background: #ffffff;
-  .marque{
-    grid-area: marque;
-    a{
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .marque{
+      max-height: 100%;
+      display: block;
       img{
-        max-width: 100%;
-        height: auto;
+        max-height: 100px;
       }
     }
-  }
-  nav{
-    grid-area: nav;
     ul{
       height: 100%;
       margin: 0;
@@ -33,7 +28,7 @@ header#header{
           height: 100%;
           padding: 0 25px;
           position: relative;
-          color: $dark;
+          color: white;
           text-transform: uppercase;
           text-decoration: none;
           font-size: 1.2rem;
@@ -44,7 +39,7 @@ header#header{
             bottom: 0;
             left: 0;
             height: 0;
-            background: $primary;
+            background: white;
             width: 100%;
             transition: all 0.15s ease-in-out;
           }
@@ -56,80 +51,67 @@ header#header{
         }
       }
     }
-  }
-  .connexion{
-    grid-area: connexion;
-    display: flex;
-    align-items: center;
-    position: relative;
-    justify-content: center;
-    a{
-      padding: 20px;
-      background: $primary;
-      color: white;
-      text-transform: uppercase;
-      text-decoration: none;
-      font-size: 1.2rem;
-      font-weight: 600;
-
-      z-index: 1;
+    .connexion{
+      display: flex;
+      align-items: center;
       position: relative;
-      overflow: hidden;
-      &:before{
-        content: '';
-        z-index: -1;
-        position: absolute;
-        bottom: 100%;
-        right: 100%;
-        width: 28px;
-        height: 28px;
-        border-radius: 50%;
-        background-color: darken($primary, 10%);
-        transform-origin: center;
-        transform: translate(50%, 50%) scale(0);
-        transition: transform 0.2s ease-in-out;
-      }
-      &:hover{
-        &:before{
-          transform: translate(50%, 50%) scale(15);
+      justify-content: center;
+      a{
+        padding: 0 30px;
+        background: white;
+        color: $primary;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 1.2rem;
+        font-weight: 600;
+        position: relative;
+        &:hover{
+          + .drop{
+            display: block;
+          }
         }
-        + .drop{
+      }
+      .drop{
+        &:hover{
           display: block;
         }
-      }
-    }
-    .drop{
-      &:hover{
-        display: block;
-      }
-      display: none;
-      position: absolute;
-      top: calc(100% - 30px);
-      width: 100%;
-      background: white;
-      box-shadow: rgba(0,0,0, 0.5) 0 14px 10px -3px;
-      padding-top: 20px;
-      ul{
-        border-top: 2px solid $primary;
+
+        z-index: 2;
+        display: none;
+        position: absolute;
+        top: 100%;
+        width: 300px;
+        left: -87px;
+        background: white;
+        box-shadow: rgba(0,0,0, 0.5) 0 14px 10px -3px;
         padding-top: 20px;
-        padding-left: 0;
-        margin: 0;
-        list-style: none;
-        li{
-          margin-bottom: 15px;
-          a{
-            background: none;
-            color: $primary;
-            &:before{
-              display: none;
-            }
-            &:hover{
-              color: black;
-            }
-            &.logout{
-              color: $danger;
+        ul{
+          padding-top: 0;
+          padding-left: 0;
+          margin: 0;
+          list-style: none;
+          display: block;
+          li{
+            margin-bottom: 15px;
+            line-height: 1;
+            a{
+              background: none;
+              color: $primary;
+              font-size: 16px;
+              &:after{
+                display: none;
+              }
+              &:before{
+                display: none;
+              }
               &:hover{
                 color: black;
+              }
+              &.logout{
+                color: $danger;
+                &:hover{
+                  color: black;
+                }
               }
             }
           }
