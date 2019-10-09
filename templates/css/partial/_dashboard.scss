@@ -1,0 +1,25 @@
+.dashboard{
+  margin-top: 40px;
+  aside{
+    padding: 0!important;
+    .collection{
+      .collection-item{
+      padding-left: 22px;
+        a{
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          color: $dark;
+          i{
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+  }
+  .main-dashboard{
+    margin-top: 0.5rem;
+    border: 1px solid #e0e0e0;
+    padding: 15px;
+  }
+}

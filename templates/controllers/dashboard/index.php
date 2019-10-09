@@ -6,6 +6,17 @@ if (!isset($_SESSION)) {
 
 if(isset($_SESSION['logged_in'])){
 
+    try{
+        $pdo = new PDO('mysql:host=localhost;dbname=bibliotec', 'root', '');
+    } catch (PDOException $e){
+        exit('Erreur de connexion à la base de donnée');
+    }
+    $query = $pdo->prepare("SELECT * FROM utilisateur"); //Requete SQL
+    $query->execute(); //Execute la requete
+    $users = $query->fetchAll(); // Recupere le retour de la requete
+
+
+
     require_once $_SERVER['DOCUMENT_ROOT'] . "/templates/views/dashboard/index.php";
 
 } else{
