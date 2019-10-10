@@ -3,7 +3,9 @@
             <aside class="col s3">
                 <ul class="collection with-header">
                     <li class="collection-header"><h5>Tableau de bord</h5></li>
+                    <?php if ($_SESSION['account'] == 2 || $_SESSION['account'] == 4): ?>
                     <li class="collection-item"><a href="#!" id="bookAdd"><i class="material-icons">library_add</i>Ajouter un livre</a></li>
+                    <?php endif; ?>
                     <?php if ($_SESSION['account'] == 3 || $_SESSION['account'] == 4): ?>
                     <li class="collection-item"><a href="#!" id="userAdd"><i class="material-icons">person_add</i>Ajouter un utilisateur</a></li>
                     <li class="collection-item"><a href="#!" id="userList"><i class="material-icons">person</i>Liste des utilisateurs</a></li>

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88b3ee2f-83dd-430c-9217-33a349f5ddcf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/templates/controllers/dashboard/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/controllers/dashboard/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/views/dashboard/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/views/dashboard/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/views/dashboard/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="143" selection-start-line="21" selection-start-column="143" selection-end-line="21" selection-end-column="143" />
+            <state relative-caret-position="272">
+              <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -272,12 +271,12 @@
       <workItem from="1570533622914" duration="5865000" />
       <workItem from="1570603973271" duration="2106000" />
       <workItem from="1570620297284" duration="9674000" />
-      <workItem from="1570708060733" duration="1635000" />
+      <workItem from="1570708060733" duration="2444000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139730000" />
+    <option name="totallyTimeSpent" value="140539000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -539,8 +538,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/views/dashboard/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="143" selection-start-line="21" selection-start-column="143" selection-end-line="21" selection-end-column="143" />
+        <state relative-caret-position="272">
+          <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
         </state>
       </provider>
     </entry>
