@@ -2,9 +2,9 @@
 
 
 try{
-    $pdo = new PDO('mysql:host=localhost;dbname=bibliotec', 'root', '', array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'));
+    $pdo = new PDO('mysql:host=localhost;dbname=bibliotec;charset=utf8', 'root', '');
 } catch (PDOException $e){
-    exit('Erreur de connexion à la base de donnée');
+    exit('Erreur de connexion à la base de donnée'.$e);
 }
 $query = $pdo->prepare("SELECT * FROM bibliotheque"); //Requete SQL
 $query->execute(); //Execute la requete

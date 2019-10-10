@@ -7,9 +7,9 @@ if (!isset($_SESSION)) {
 if(isset($_SESSION['logged_in'])){
 
     try{
-        $pdo = new PDO('mysql:host=localhost;dbname=bibliotec', 'root', '');
+        $pdo = new PDO('mysql:host=localhost;dbname=bibliotec;charset=utf8', 'root', '');
     } catch (PDOException $e){
-        exit('Erreur de connexion à la base de donnée');
+        exit('Erreur de connexion à la base de donnée'.$e);
     }
     $query = $pdo->prepare("SELECT * FROM utilisateur"); //Requete SQL
     $query->execute(); //Execute la requete

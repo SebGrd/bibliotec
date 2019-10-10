@@ -4,8 +4,10 @@
                 <ul class="collection with-header">
                     <li class="collection-header"><h5>Tableau de bord</h5></li>
                     <li class="collection-item"><a href="#!" id="bookAdd"><i class="material-icons">library_add</i>Ajouter un livre</a></li>
+                    <?php if ($_SESSION['account'] == 3 || $_SESSION['account'] == 4): ?>
                     <li class="collection-item"><a href="#!" id="userAdd"><i class="material-icons">person_add</i>Ajouter un utilisateur</a></li>
                     <li class="collection-item"><a href="#!" id="userList"><i class="material-icons">person</i>Liste des utilisateurs</a></li>
+                    <?php endif; ?>
                 </ul>
             </aside>
         <div class="col s9 col-dash">
@@ -25,6 +27,7 @@
                     </div>
                 </div>
 
+                <?php if ($_SESSION['account'] == 3 || $_SESSION['account'] == 4): ?>
                 <div class="user-add">
                     <h5>Ajouter un utilisateur</h5>
                     <div class="row">
@@ -85,16 +88,18 @@
                         </form>
                     </div>
                 </div>
+                <?php endif; ?>
 
+                <?php if ($_SESSION['account'] == 3 || $_SESSION['account'] == 4): ?>
                 <div class="user-list">
                     <h5>Liste des utilisateurs</h5>
                     <ul class="collection">
                     <?php foreach ($users as $user):?>
                         <li class="collection-item"><div><?php echo '<b>'.$user['prenom'].' '.$user['nom'].'</b> - '.accountName($user['type_compte']);?><a href="<?php echo ('http://'.$_SERVER['HTTP_HOST']."/templates/controllers/dashboard/userDelHandler.php?user=".$user['id_user']);?>" class="secondary-content"><i class="material-icons">delete</i></a></div></li>
                     <?php endforeach; ?>
-
                     </ul>
                 </div>
+                <?php endif; ?>
 
             </div>
 
