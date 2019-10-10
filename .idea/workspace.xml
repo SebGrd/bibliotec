@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88b3ee2f-83dd-430c-9217-33a349f5ddcf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/controllers/blibliotheque-list.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/controllers/blibliotheque-list.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/controllers/book-list.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/controllers/book-list.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/controllers/dashboard/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/controllers/dashboard/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/controllers/dashboard/userAddHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/controllers/dashboard/userAddHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/controllers/dashboard/userDelHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/controllers/dashboard/userDelHandler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/controllers/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/controllers/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/views/dashboard/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/views/dashboard/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,53 +16,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/controllers/dashboard/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="44" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/controllers/login.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="27" column="61" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="61" />
+            <state>
+              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/controllers/book-list.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/controllers/blibliotheque-list.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="83" selection-start-line="4" selection-start-column="83" selection-end-line="4" selection-end-column="83" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/function.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/views/dashboard/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+            <state relative-caret-position="357">
+              <caret line="21" column="143" selection-start-line="21" selection-start-column="143" selection-end-line="21" selection-end-column="143" />
             </state>
           </provider>
         </entry>
@@ -197,11 +155,11 @@
         <option value="$PROJECT_DIR$/templates/css/partial/_content.scss" />
         <option value="$PROJECT_DIR$/templates/css/partial/_global.scss" />
         <option value="$PROJECT_DIR$/templates/views/bibliotheque-list.php" />
-        <option value="$PROJECT_DIR$/templates/views/dashboard/index.php" />
         <option value="$PROJECT_DIR$/templates/controllers/blibliotheque-list.php" />
-        <option value="$PROJECT_DIR$/templates/controllers/dashboard/index.php" />
         <option value="$PROJECT_DIR$/templates/controllers/login.php" />
         <option value="$PROJECT_DIR$/templates/controllers/book-list.php" />
+        <option value="$PROJECT_DIR$/templates/controllers/dashboard/index.php" />
+        <option value="$PROJECT_DIR$/templates/views/dashboard/index.php" />
       </list>
     </option>
   </component>
@@ -314,12 +272,12 @@
       <workItem from="1570533622914" duration="5865000" />
       <workItem from="1570603973271" duration="2106000" />
       <workItem from="1570620297284" duration="9674000" />
-      <workItem from="1570708060733" duration="779000" />
+      <workItem from="1570708060733" duration="1635000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138874000" />
+    <option name="totallyTimeSpent" value="139730000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -520,34 +478,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/controllers/dashboard/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="44" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/controllers/blibliotheque-list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="83" selection-start-line="4" selection-start-column="83" selection-end-line="4" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/function.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/views/dashboard/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/views/login.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -572,17 +502,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/controllers/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="27" column="61" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/controllers/book-list.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+          <caret line="16" column="59" lean-forward="true" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/controllers/blibliotheque-list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="83" selection-start-line="4" selection-start-column="83" selection-end-line="4" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/controllers/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="29" column="92" lean-forward="true" selection-start-line="29" selection-start-column="92" selection-end-line="29" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/controllers/dashboard/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/views/dashboard/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="143" selection-start-line="21" selection-start-column="143" selection-end-line="21" selection-end-column="143" />
         </state>
       </provider>
     </entry>

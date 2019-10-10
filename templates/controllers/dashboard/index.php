@@ -15,6 +15,12 @@ if(isset($_SESSION['logged_in'])){
     $query->execute(); //Execute la requete
     $users = $query->fetchAll(); // Recupere le retour de la requete
 
+    $query = $pdo->prepare("SELECT COUNT(*) FROM utilisateur"); //Requete SQL
+    $query->execute(); //Execute la requete
+    $nbrUsers = $query->fetchAll(); // Recupere le retour de la requete
+    $query = $pdo->prepare("SELECT COUNT(*) FROM livre"); //Requete SQL
+    $query->execute(); //Execute la requete
+    $nbrBooks = $query->fetchAll(); // Recupere le retour de la requete
 
 
     require_once $_SERVER['DOCUMENT_ROOT'] . "/templates/views/dashboard/index.php";

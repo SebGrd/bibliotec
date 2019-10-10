@@ -16,10 +16,10 @@
                 <div class="dashboard-stats">
                     <div class="row">
                         <div class="col s4">
-                            <a class="waves-effect waves-light btn-large"><i class="material-icons right">account_circle</i>86 utilisateurs</a>
+                            <a class="waves-effect waves-light btn-large"><i class="material-icons right">account_circle</i><?php echo $nbrUsers[0][0]; ?> utilisateurs</a>
                         </div>
                         <div class="col s4">
-                            <a class="waves-effect waves-light btn-large"><i class="material-icons right">library_books</i>5465 livres</a>
+                            <a class="waves-effect waves-light btn-large"><i class="material-icons right">library_books</i><?php echo $nbrBooks[0][0]; ?>  livres</a>
                         </div>
                         <div class="col s4">
                             <a class="waves-effect waves-light btn-large"><i class="material-icons right">cloud</i>button</a>
