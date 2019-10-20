@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88b3ee2f-83dd-430c-9217-33a349f5ddcf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/templates/views/dashboard/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/views/dashboard/index.php" afterDir="false" />
-    </list>
+    <list default="true" id="88b3ee2f-83dd-430c-9217-33a349f5ddcf" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/views/dashboard/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+            <state relative-caret-position="238">
+              <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -271,12 +269,12 @@
       <workItem from="1570533622914" duration="5865000" />
       <workItem from="1570603973271" duration="2106000" />
       <workItem from="1570620297284" duration="9674000" />
-      <workItem from="1570708060733" duration="2444000" />
+      <workItem from="1570708060733" duration="2534000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140539000" />
+    <option name="totallyTimeSpent" value="140629000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -289,7 +287,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18657719" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -538,8 +535,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/views/dashboard/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+        <state relative-caret-position="238">
+          <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
         </state>
       </provider>
     </entry>
