@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Oct 20, 2019 at 02:47 PM
+-- Generation Time: Oct 21, 2019 at 12:21 AM
 -- Server version: 5.7.21
 -- PHP Version: 7.1.16
 
@@ -66,28 +66,6 @@ CREATE TABLE IF NOT EXISTS `emprunt` (
   KEY `id_user_fk` (`id_user_fk`),
   KEY `id_livre_fk` (`id_livre_fk`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
-
--- --------------------------------------------------------
-
---
--- Table structure for table `livre`
---
-
-DROP TABLE IF EXISTS `livre`;
-CREATE TABLE IF NOT EXISTS `livre` (
-  `id_livre` int(11) NOT NULL AUTO_INCREMENT,
-  `isbn` int(11) NOT NULL,
-  `id_bib` int(11) DEFAULT NULL,
-  PRIMARY KEY (`id_livre`)
-) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
-
---
--- Dumping data for table `livre`
---
-
-INSERT INTO `livre` (`id_livre`, `isbn`, `id_bib`) VALUES
-(1, 2012814166, 1),
-(2, 2075027668, 1);
 
 -- --------------------------------------------------------
 

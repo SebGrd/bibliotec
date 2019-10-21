@@ -24,7 +24,7 @@
                             <a class="waves-effect waves-light btn-large"><i class="material-icons right">library_books</i><?php echo $nbrBooks[0][0]; ?>  livres</a>
                         </div>
                         <div class="col s4">
-                            <a class="waves-effect waves-light btn-large"><i class="material-icons right">cloud</i>button</a>
+                            <a class="waves-effect waves-light btn-large"><i class="material-icons right">mode_edit</i><?php echo $nbrAuteur[0][0]; ?> auteurs</a>
                         </div>
                     </div>
                 </div>
