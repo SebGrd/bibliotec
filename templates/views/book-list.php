@@ -1,52 +1,28 @@
 <section class="book-list">
-
-    <pre>
-        <?php
-
-//        var_dump($livres);
-//        var_dump($livretest);
-        var_dump($idList);
-
-        foreach ($idList as $bookId){
-            var_dump($livre->getBookInfo(intval($bookId)));
-        }
-
-        ?>
-    </pre>
-
-<!---->
-<!--    --><?php //foreach ($livres as $livre): ?>
-<!--    --><?php
-//        $livreInfo = $livre['items'][0]['volumeInfo'];
-//        ?>
-<!--       <div class="book-card">-->
-<!---->
-<!--           <h3>--><?php //echo $livreInfo['title']; ?><!--</h3>-->
-<!---->
-<!--           --><?php //if (isset($livreInfo['imageLinks'])): ?>
-<!--               <img src="--><?php //echo $livreInfo['imageLinks']['thumbnail']; ?><!--" alt="">-->
-<!--           --><?php //endif; ?>
-<!---->
-<!--           --><?php //if (isset($livreInfo['authors'])): ?>
-<!--               <p>--><?php //echo implode(', ', $livreInfo['authors']); ?><!--</p>-->
-<!--           --><?php //endif; ?>
-<!---->
-<!--           <p>Date de publication : <strong>--><?php //echo isset($livreInfo['publishedDate']) ? $livreInfo['publishedDate'] : 'Inconnue'; ?><!--</strong></p>-->
-<!--           <p>Editeur : <strong>--><?php //echo isset($livreInfo['publisher']) ? $livreInfo['publisher'] : 'Inconnu'; ?><!--</strong></p>-->
-<!--           <p>Catégories : <strong>--><?php //echo isset($livreInfo['categories']) ? implode(', ', $livreInfo['categories']) : 'Aucune'; ?><!--</strong></p>-->
-<!--           <p>Nombre de pages : <strong>--><?php //echo isset($livreInfo['pageCount']) ? $livreInfo['pageCount'] : 'Inconnu'; ?><!--</strong></p>-->
-<!--           <p>Livre à contenu pour adulte : <strong>--><?php //echo isset($livreInfo['maturityRating']) ? $livreInfo['maturityRating'] : 'Inconnu'; ?><!--</strong></p>-->
-<!--           <p>Langue : <strong>--><?php //echo isset($livreInfo['language']) ? $livreInfo['language'] : 'Inconnue'; ?><!--</strong></p>-->
-<!--           <p>--><?php //echo $livreInfo['description']; ?><!--</p>-->
-<!--           --><?php //if(isset($livreInfo['industryIdentifiers'])): ?>
-<!--               <ul>-->
-<!--                   --><?php //foreach ($livreInfo['industryIdentifiers'] as $isbn): ?>
-<!--                       <li>--><?php //echo $isbn['type'] . ' : '; ?><!--<strong>--><?php //echo $isbn['identifier']; ?><!--</strong></li>-->
-<!--                   --><?php //endforeach; ?>
-<!--               </ul>-->
-<!--           --><?php //endif; ?>
-<!---->
-<!--       </div>-->
-<!--        <hr>-->
-<!--    --><?php //endforeach; ?>
+    <div class="container">
+        <h2>Nos livres</h2>
+        <div class="row">
+        <?php foreach ($idList as $bookId): ?>
+        <?php $book = $livre->getBookInfo(intval($bookId))[0] ?>
+        <div class="col s6">
+            <div class="card horizontal">
+                <div class="card-image">
+                    <img src="<?php echo $book['img_url']; ?>">
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <h5><?php echo $book['titre']; ?></h5>
+                        <div><span class="new badge" data-badge-caption="<?php echo $book['categorie_nom'] ?>"></span><?php echo $book['auteur_nom'] ?></div>
+                        <hr>
+                        <p><?php echo substr($book['resume'], 0, 100).'...';?></p>
+                    </div>
+                    <div class="card-action">
+                        <a href="<?php echo ('http://'.$_SERVER['HTTP_HOST']."/single-book.php?book=".$book['id']); ?>">Détails du livre</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <?php endforeach; ?>
+        </div>
+    </div>
 </section>

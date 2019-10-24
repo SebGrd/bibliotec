@@ -72,6 +72,7 @@ class livre
             $query2->execute();
             $livreInfos = $query2->fetchAll(PDO::FETCH_ASSOC);
 
+
             unset($livreData[0]['id_auteur']);
             unset($livreData[0]['id_editeur']);
             unset($livreData[0]['id_categorie']);
