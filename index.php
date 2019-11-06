@@ -21,56 +21,56 @@
             </div>
         </section>
 
-        <section id="tendance-livre">
-            <h2><i class="far fa-heart"></i> Coups de coeur</h2>
-
-            <article>
-                <header>
-                    <h4>Le titre du livre</h4>
-                    <span class="disponibilite -non">Indisponible</span>
-                </header>
-                <div class="resume">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem ducimus rerum veritatis vitae?
-                        Ad autem beatae delectus doloremque fuga hic in molestias, pariatur, quidem quod quos, repudiandae sed ullam voluptatibus?
-                    </p>
-                </div>
-                <footer>
-                    <p><b>Auteur :</b> Jacque célère</p>
-                    <p><b>Publié le :</b> <time>02/12/2018</time></p>
-                </footer>
-            </article>
-            <article>
-                <header>
-                    <h4>Le titre du livre</h4>
-                    <span class="disponibilite">Disponible</span>
-                </header>
-                <div class="resume">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem ducimus rerum veritatis vitae?
-                        Ad autem beatae delectus doloremque fuga hic in molestias, pariatur, quidem quod quos, repudiandae sed ullam voluptatibus?
-                    </p>
-                </div>
-                <footer>
-                    <p><b>Auteur :</b> Jacque célère</p>
-                    <p><b>Publié le :</b> <time>02/12/2018</time></p>
-                </footer>
-            </article>
-            <article>
-                <header>
-                    <h4>Le titre du livre</h4>
-                    <span class="disponibilite">Disponible</span>
-                </header>
-                <div class="resume">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem ducimus rerum veritatis vitae?
-                        Ad autem beatae delectus doloremque fuga hic in molestias, pariatur, quidem quod quos, repudiandae sed ullam voluptatibus?
-                    </p>
-                </div>
-                <footer>
-                    <p><b>Auteur :</b> Jacque célère</p>
-                    <p><b>Publié le :</b> <time>02/12/2018</time></p>
-                </footer>
-            </article>
-
-        </section>
+<!--        <section id="tendance-livre">-->
+<!--            <h2><i class="far fa-heart"></i> Coups de coeur</h2>-->
+<!---->
+<!--            <article>-->
+<!--                <header>-->
+<!--                    <h4>Le titre du livre</h4>-->
+<!--                    <span class="disponibilite -non">Indisponible</span>-->
+<!--                </header>-->
+<!--                <div class="resume">-->
+<!--                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem ducimus rerum veritatis vitae?-->
+<!--                        Ad autem beatae delectus doloremque fuga hic in molestias, pariatur, quidem quod quos, repudiandae sed ullam voluptatibus?-->
+<!--                    </p>-->
+<!--                </div>-->
+<!--                <footer>-->
+<!--                    <p><b>Auteur :</b> Jacque célère</p>-->
+<!--                    <p><b>Publié le :</b> <time>02/12/2018</time></p>-->
+<!--                </footer>-->
+<!--            </article>-->
+<!--            <article>-->
+<!--                <header>-->
+<!--                    <h4>Le titre du livre</h4>-->
+<!--                    <span class="disponibilite">Disponible</span>-->
+<!--                </header>-->
+<!--                <div class="resume">-->
+<!--                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem ducimus rerum veritatis vitae?-->
+<!--                        Ad autem beatae delectus doloremque fuga hic in molestias, pariatur, quidem quod quos, repudiandae sed ullam voluptatibus?-->
+<!--                    </p>-->
+<!--                </div>-->
+<!--                <footer>-->
+<!--                    <p><b>Auteur :</b> Jacque célère</p>-->
+<!--                    <p><b>Publié le :</b> <time>02/12/2018</time></p>-->
+<!--                </footer>-->
+<!--            </article>-->
+<!--            <article>-->
+<!--                <header>-->
+<!--                    <h4>Le titre du livre</h4>-->
+<!--                    <span class="disponibilite">Disponible</span>-->
+<!--                </header>-->
+<!--                <div class="resume">-->
+<!--                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem ducimus rerum veritatis vitae?-->
+<!--                        Ad autem beatae delectus doloremque fuga hic in molestias, pariatur, quidem quod quos, repudiandae sed ullam voluptatibus?-->
+<!--                    </p>-->
+<!--                </div>-->
+<!--                <footer>-->
+<!--                    <p><b>Auteur :</b> Jacque célère</p>-->
+<!--                    <p><b>Publié le :</b> <time>02/12/2018</time></p>-->
+<!--                </footer>-->
+<!--            </article>-->
+<!---->
+<!--        </section>-->
 
         <section id="sites">
 
@@ -92,8 +92,8 @@
 //        }
 
 
-        $hashed_password = password_hash('mypassword', PASSWORD_BCRYPT);
-        echo $hashed_password;
+//        $hashed_password = password_hash('mypassword', PASSWORD_BCRYPT);
+//        echo $hashed_password;
 
         ?>
     </main>

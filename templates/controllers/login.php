@@ -27,7 +27,7 @@ if(isset($_SESSION['logged_in'])){
             } catch (PDOException $e){
                 exit('Erreur de connexion à la base de donnée'.$e);
             }
-            $query = $pdo->prepare("SELECT password,type_compte FROM utilisateur WHERE mail = ?"); //Requete SQL
+            $query = $pdo->prepare("SELECT password,type_compte,id_user FROM utilisateur WHERE mail = ?"); //Requete SQL
             $query->bindValue(1, $mail); //Ajoute le mail à la requete
             $query->execute(); //Execute la requete
             $result = $query->fetch(); // Recupere le retour de la requete
@@ -36,12 +36,14 @@ if(isset($_SESSION['logged_in'])){
 
                 $pass = $result['password'];
                 $accountType = $result['type_compte'];
+                $idAccount = $result['id_user'];
 
                 if (hash_equals($pass, crypt($password, $pass))){
                     //Variables de session
                     $_SESSION['logged_in'] = true;
                     $_SESSION['mail'] = $mail;
                     $_SESSION['account'] = $accountType;
+                    $_SESSION['idUser'] = $idAccount;
                     //Redirection
                     header('Location: index.php');
                     exit();

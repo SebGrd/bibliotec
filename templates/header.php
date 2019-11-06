@@ -18,7 +18,7 @@
                 <img src="<?php echo ('http://'.$_SERVER['HTTP_HOST']."/templates/img/logo-2.png"); ?>" alt="Logo">
         </a>
         <ul>
-            <li><a class="waves-effect waves-light" href="#">Emprunter un livre</a></li>
+            <li><a class="waves-effect waves-light" href="<?php echo ('http://'.$_SERVER['HTTP_HOST']."/borrow-book.php"); ?>">Emprunter un livre</a></li>
             <li><a class="waves-effect waves-light" href="<?php echo ('http://'.$_SERVER['HTTP_HOST']."/book-list.php"); ?>">Tous nos livres</a></li>
             <li><a class="waves-effect waves-light" href="<?php echo ('http://'.$_SERVER['HTTP_HOST']."/bibliotheque-list.php"); ?>">Nos bibliothèques</a></li>
         </ul>

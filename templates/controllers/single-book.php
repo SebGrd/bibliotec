@@ -5,6 +5,10 @@ require_once $_SERVER['DOCUMENT_ROOT']."/templates/class/livre.php";
 $id = intval($_GET['book']);
 $livre = new livre();
 $book = $livre->getBookInfo($id)[0];
+$emprunted = $livre->isAvailable($id);
+if ($emprunted){
+    $emprunt = $livre->availability($id);
+}
 
 
 try{

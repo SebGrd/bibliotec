@@ -43,6 +43,42 @@ class livre
         return $livres;
     }
 
+    function availability($id){
+
+        try{
+            $pdo = new PDO($this->DSNbibliotec, $this->DBuser, $this->DBpassword);
+        } catch (PDOException $e){
+            exit('Erreur de connexion à la base de donnée'.$e);
+        }
+
+        $query = $pdo->prepare("SELECT * FROM emprunt WHERE id_livre_fk = ?");
+        $query->bindValue(1, $id);
+        $query->execute();
+        $emprunt = $query->fetchAll(PDO::FETCH_ASSOC);
+
+        return $emprunt;
+    }
+
+    function isAvailable($id){
+
+        try{
+            $pdo = new PDO($this->DSNbibliotec, $this->DBuser, $this->DBpassword);
+        } catch (PDOException $e){
+            exit('Erreur de connexion à la base de donnée'.$e);
+        }
+
+        $query = $pdo->prepare("SELECT * FROM emprunt WHERE id_livre_fk = ?");
+        $query->bindValue(1, $id);
+        $query->execute();
+        $emprunt = $query->fetchAll(PDO::FETCH_ASSOC);
+
+        if (empty($emprunt)){
+            return false;
+        } else{
+            return true;
+        }
+    }
+
 
     function getBookInfo($bookID){
 
